@@ -1,0 +1,26 @@
+{
+  "name": "ai-learning-proxy",
+  "version": "1.0.0",
+  "description": "Secure on‑prem API proxy for the AI Learning App",
+  "main": "api_proxy_server.js",
+  "scripts": {
+    "start": "node api_proxy_server.js",
+    "dev": "nodemon api_proxy_server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "license": "MIT"
+}
